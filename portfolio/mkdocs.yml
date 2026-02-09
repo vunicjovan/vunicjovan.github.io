@@ -1,0 +1,80 @@
+site_name: Jovan Vunić
+site_description: M.Sc. in Applied Computer Science | Experienced Software Engineer
+site_author: Jovan Vunić
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Professional Experience: experience.md
+  - Personal Projects: projects.md
+  - Expertise: skills.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - neoteroi.timeline
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/vunicjovan
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jovan-vuni%C4%87-m-sc-4851091a9/
+
+extra_css:
+  - stylesheets/extra.css
+  - css/neoteroi-mkdocs.css
+
+watch:
+  - docs
