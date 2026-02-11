@@ -1,3 +1,5 @@
+/* Copyright 2026 Jovan Vunić. All rights reserved. */
+
 /* Custom styles for the portfolio website */
 
 /* ========================================
@@ -479,7 +481,7 @@
 .language-list p img {
   margin-right: 0.25rem;
   margin-left: 0.75rem;
-  vertical-align: middle;
+  vertical-align: -0.15em;
 }
 
 .language-list p img:first-child {

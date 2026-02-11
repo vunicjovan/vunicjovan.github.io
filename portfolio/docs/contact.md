@@ -1,3 +1,5 @@
+<!-- Copyright 2026 Jovan Vunić. All rights reserved. -->
+
 :material-map-marker: Based in **Vienna, Austria** and open to:
 
 - :material-office-building: On-site and/or hybrid opportunities in Vienna/Austria
