@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+<!-- Copyright 2026 Jovan Vunić. All rights reserved. -->
+
 # Personal Projects
 
 === "Actively Developed Projects <sup class="project-count-badge-inprogress">2</sup>"

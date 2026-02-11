@@ -1,9 +1,12 @@
+# Copyright 2026 Jovan Vunić. All rights reserved.
+
 site_name: Jovan Vunić
 site_description: M.Sc. in Applied Computer Science | Experienced Software Engineer
 site_author: Jovan Vunić
 
 theme:
   name: material
+  favicon: assets/images/favicon.png
   palette:
     - scheme: default
       primary: custom

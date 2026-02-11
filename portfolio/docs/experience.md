@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+<!-- Copyright 2026 Jovan Vunić. All rights reserved. -->
+
 <div class="experience-layout" markdown="1">
 <div class="experience-content" markdown="1">
 
@@ -24,7 +26,7 @@ Over time, I became multilingual - and I develop further in this area with each 
 
 :flag_rs: **Serbian** *Native*{: .language-level}
 
-:flag_ba: **Bosnian** &nbsp; &nbsp; :flag_hr: **Croatian** &nbsp; &nbsp; :flag_me: **Montenegrin** *Professional*{: .language-level}
+:flag_ba: **Bosnian**<br>:flag_hr: **Croatian**<br>:flag_me: **Montenegrin** *Professional*{: .language-level}
 
 :flag_us: **English** *Professional*{: .language-level}
 

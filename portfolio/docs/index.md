@@ -3,6 +3,8 @@ hide:
   - toc
 ---
 
+<!-- Copyright 2026 Jovan Vunić. All rights reserved. -->
+
 <div class="hero-section" markdown>
 
 <div class="hero-content" markdown>

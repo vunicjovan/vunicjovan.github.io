@@ -1,3 +1,5 @@
+<!-- Copyright 2026 Jovan Vunić. All rights reserved. -->
+
 ## :material-star: Areas of Expertise
 
 <div class="skill-section" markdown>
