@@ -472,9 +472,18 @@
   line-height: 2;
 }
 
+.language-list p br {
+  display: none;
+}
+
 .language-list p img {
   margin-right: 0.25rem;
+  margin-left: 0.75rem;
   vertical-align: middle;
+}
+
+.language-list p img:first-child {
+  margin-left: 0;
 }
 
 .language-list p strong {
@@ -513,6 +522,14 @@
 @media screen and (max-width: 768px) {
   .language-list p {
     padding-right: 130px;
+  }
+
+  .language-list p br {
+    display: block;
+  }
+
+  .language-list p img {
+    margin-left: 0;
   }
 
   .language-level {
