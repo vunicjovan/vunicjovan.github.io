@@ -1,9 +1,9 @@
-<!-- Copyright 2026 Jovan Vunić. All rights reserved. -->
-
 ---
 hide:
   - toc
 ---
+
+<!-- Copyright 2026 Jovan Vunić. All rights reserved. -->
 
 <div class="experience-layout" markdown="1">
 <div class="experience-content" markdown="1">
