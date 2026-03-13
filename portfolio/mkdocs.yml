@@ -6,6 +6,7 @@ site_author: Jovan Vunić
 
 theme:
   name: material
+  custom_dir: overrides
   favicon: assets/images/favicon.png
   palette:
     - scheme: default
