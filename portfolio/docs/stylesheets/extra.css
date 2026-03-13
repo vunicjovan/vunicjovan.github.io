@@ -709,6 +709,86 @@ html {
   }
 }
 
+/* Full viewport layout for homepage (only when .hero-section is present) */
+.md-container:has(.hero-section),
+html:has(.hero-section),
+html:has(.hero-section) body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.md-container:has(.hero-section) {
+  display: flex;
+  flex-direction: column;
+}
+
+.md-container:has(.hero-section) .md-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.md-container:has(.hero-section) .md-main__inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.md-container:has(.hero-section) .md-main__inner.md-grid {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.md-container:has(.hero-section) .md-content {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.md-container:has(.hero-section) .md-content__inner {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.md-container:has(.hero-section) .md-content__inner > article {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Remove ::before pseudo-element from article on homepage only */
+.md-container:has(.hero-section) .md-content__inner::before,
+.md-container:has(.hero-section) .md-typeset::before {
+  display: none !important;
+}
+
+/* Make hero section fill the entire container */
+.hero-section {
+  flex: 1 !important;
+  margin: 0 !important;
+  padding: 2rem 1rem !important;
+  border-radius: 0 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
 .md-header {
   background: linear-gradient(
     135deg,
