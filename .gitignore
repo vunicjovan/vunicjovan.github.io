@@ -1,13 +1,11 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-
-# VSC
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+playwright-report/
+test-results/
 .vscode/
